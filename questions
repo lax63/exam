@@ -1,4 +1,4 @@
-
+Hu
 
 (a) Let A and B be two nxn matrices. A Linear Algebra Professor 2be the answer? Justify. I whether rank of B and AB are the same if A has full rank. What (b) If 42 A, B2B and I-A-B is invertible then help the students to prove A and B are of same rank. [5 Marks]
 
@@ -27,3 +27,5 @@ where is an unknown real number. His friend named Al then asked him the followin
 (a) For which possible values of parameter, can we be sure that the matrix G will only have non-zero eigenvalues. 
 (b) If all the eigenvalues of G are known to be positive then what is the possible range of values that parameter can take.
 Derive answer to the questions asked by Al.
+
+Let the vector f=2x+2x1 x2+3x-2. Calculate the gradient of f and find a point where it vanishes, if there exists such a point. [3 Marks]

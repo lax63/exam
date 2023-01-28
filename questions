@@ -31,3 +31,9 @@ Derive answer to the questions asked by Al.
 Let the vector f=2x+2x1 x2+3x-2. Calculate the gradient of f and find a point where it vanishes, if there exists such a point. [3 Marks]
 
 Can the function f(x) = 1+2x+3x²/2 be the Taylor's series expansion to three terms for a function of the form e+ around = 0? If so, 2 find a and 3. Otherwise, explain why the given polynomial cannot be a Taylor series expansion of a function of the form ex+?
+
+71
+
+BUDA If \ v_{1}, v_{2} ,...,v n \ is an orthonormal set in V and if w in V then show that u =w- sum i=1 ^ n <w,v i >v i is orthogonal to each of v i ( i = 1, 2 ,...,n) . [3 Marks]
+
+L

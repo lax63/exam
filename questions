@@ -37,3 +37,12 @@ Can the function f(x) = 1+2x+3x²/2 be the Taylor's series expansion to three te
 BUDA If \ v_{1}, v_{2} ,...,v n \ is an orthonormal set in V and if w in V then show that u =w- sum i=1 ^ n <w,v i >v i is orthogonal to each of v i ( i = 1, 2 ,...,n) . [3 Marks]
 
 L
+
+
+Consider a vector r in mathbb R ^ k . Here k > 102 Consider a matrix M defined as M = r * r ^ T Based on this definition answer the following:
+
+(c) How many non-zero singular values does M ^ T * M have. Also, derive the value of all non-zero singular value of M ^ T .
+
+(b) Find the sum of absolute value of eigenvalues of this matrix i.e sum i = 1 to k |lambda_{i}| where lambda_{i} is the i ^ (th) eigenvalues of M.
+
+manero eigenvalues does the matrix M have ?.Derive all the nonzero eigenvalues.

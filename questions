@@ -1,1 +1,29 @@
 
+
+(a) Let A and B be two nxn matrices. A Linear Algebra Professor 2be the answer? Justify. I whether rank of B and AB are the same if A has full rank. What (b) If 42 A, B2B and I-A-B is invertible then help the students to prove A and B are of same rank. [5 Marks]
+
+2
+
+28
+
+(a) Let V (p(x)/p(x)= exp(a) = 0} be set of all polynomials of degree less than or equal to 5 with a as its root with usual scalar multiplication and polynomial addition. Is V a vector space? Justify. If yes, find a basis for V (b) Let V (AE M2x2(R)/A¹ exists) be set of all invertible real matrices of order 2 with usual scalar multiplication and matrix addition. Is V a vector space? Justify.
+
+(c) If we replace matrix addition by matrix multiplication in the above
+
+set, is V a vector space? Justify.
+
+[3 Marks]
+
+3
+
+A student in MTech datascience was revising Linear Algebra for his end semester exam. Then he came across a 3 by 3 matrix named G in a linear algebra textbook.
+
+G=72 7
+
+72
+
+- an unknown real number. His friend named Al then asked Full text: 9 llowing questions about this matrix: hich possible values of parameter, can we be sure that the matrix G will only have non-zero eigenvalues.
+
+Aa
+
++

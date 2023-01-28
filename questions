@@ -46,3 +46,5 @@ Consider a vector r in mathbb R ^ k . Here k > 102 Consider a matrix M defined a
 (b) Find the sum of absolute value of eigenvalues of this matrix i.e sum i = 1 to k |lambda_{i}| where lambda_{i} is the i ^ (th) eigenvalues of M.
 
 manero eigenvalues does the matrix M have ?.Derive all the nonzero eigenvalues.
+
+Represent the standard inner product in mathbb R ^ 3 with respect to the basis (1, 0, 1) (0, 1, 1) , (1, 1, 0) . Also find the inner product between (-2, 1, 3) and (- 4, 5, 9) [4 Marks]

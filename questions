@@ -5,3 +5,4 @@ P(x,y | 〖class〗_1) = 1/(2πσ_x σ_y )exp[〖-(x)〗^2/(2σ_y^2 )- ((〖y-2)
 
 P(〖class〗_0)=0.4, p(〖class〗_1)=0.6
 i)Derive the equation of decision boundary assuming Naïve Bayes assumption.
+ii) what is the equation and shape of the decision boundary if σ_x  = σ_y= σ? Draw the decision boundary clearly showing which region belongs to class0 and class1. Is the decision boundary linear?

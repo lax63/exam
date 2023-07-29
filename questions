@@ -1,4 +1,16 @@
+To handle zero probability, use smoothing and assume the Laplace smooth factor is +10 tokens only for your calculation irrespective of the training data count. All the punctuations like comma, question marks etc., must be included as valid separate token for this particular model.
 
+Test Sentence to complete: What do you make, O ye
+
+a. Use Four-gram language model
+
+051604
+
+23/07/29-20224305366-8
+
+b. Use Five-gram language model
+
+c. Using the result of part, a) w.r.t to predicted next word, Calculate the perplexity
 Sure, here are the tokenized and tagged sentences:
 
 Sentence 1: Book the ticket

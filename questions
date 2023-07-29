@@ -1,11 +1,43 @@
-Tokenize and tag the following sentences using the Brown Corpus table given, 2023/07/able given, 2aa05160-84428
 
-Sentence 1:"Book the ticket"
+Sure, here are the tokenized and tagged sentences:
 
-19-20223 Sentence 2: "Book the first book"
+Sentence 1: Book the ticket
 
-Sentence 3: "Read the first book."
+Token | Tag
+------- | --------
+Book | VB
+the | DT
+ticket | NN
+Sentence 2: Book the first book
 
-Sentence 4: "Ticket is booked."
+Token | Tag
+------- | --------
+Book | VB
+the | DT
+first | JJ
+book | NN
+Sentence 3: Read the first book.
 
-Write the best sequence of tags for sentence 1, sentence 2, sentence 3 and sentence 4. 2022aa05160-844
+Token | Tag
+------- | --------
+Read | VB
+the | DT
+first | JJ
+book | NN
+. | DOT
+Sentence 4: Ticket is booked.
+
+Token | Tag
+------- | --------
+Ticket | NN
+is | VBZ
+booked | VBN
+. | DOT
+The best sequence of tags for each sentence is as follows:
+
+Sentence 1: Book the ticket = VB DT NN
+Sentence 2: Book the first book = VB DT JJ NN
+Sentence 3: Read the first book. = VB DT JJ NN .
+Sentence 4: Ticket is booked. = NN VBZ VBN .
+
+I hope this helps! Let me know if you have any other questions.

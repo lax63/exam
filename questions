@@ -1,15 +1,50 @@
-“What do you sell, O ye vender?
-What do you weave, O ye flowergirl?
-What do you weave, O ye fisherman?
-What do you catch, O ye fisherman?
-What do you make, O ye goldsmith?
-What do you weigh, O ye vender?
-What do you weigh, O ye flowergirl?”
-Given above training data, use both below listed language models separately to predict the next word to complete the below test sentence. For prediction use only form set (vendor, goldsmith) for candidate next word.
-Note:  To handle zero probability, use smoothing and assume the Laplace smooth factor is +10 tokens only for your calculation irrespective of the training data count. All the punctuations like comma, question marks etc., must be included as valid separate token for this particular model.
 
-Test Sentence to complete: What do you make, O ye _________
+Sure, I can help you with that.
 
-a. Use Four-gram language model
-b. Use Five-gram language model
-c. Using the result of part, a) w.r.t to predicted next word, Calculate the perplexity
+a. Four-gram language model
+
+The four-gram language model for the given training data is as follows:
+
+(what do you) (sell, O ye) vender
+(what do you) (weave, O ye) flowergirl
+(what do you) (weave, O ye) fisherman
+(what do you) (catch, O ye) fisherman
+(what do you) (make, O ye) goldsmith
+(what do you) (weigh, O ye) vender
+(what do you) (weigh, O ye) flowergirl
+To predict the next word in the test sentence "What do you make, O ye _________", we can use the four-gram model to calculate the probability of each possible next word. The possible next words are "vendor" and "goldsmith". The probabilities of these two words are as follows:
+
+Probability of "vendor" = (1 + 10) / (7 + 10 * 6) = 11 / 66 = 1 / 6
+Probability of "goldsmith" = (1 + 10) / (7 + 10 * 6) = 11 / 66 = 1 / 6
+Therefore, the four-gram language model predicts that the next word in the test sentence is "vendor" with a probability of 1 / 6 and "goldsmith" with a probability of 1 / 6.
+
+b. Five-gram language model
+
+The five-gram language model for the given training data is as follows:
+
+(what do you) (sell, O ye) (vender)
+(what do you) (weave, O ye) (flowergirl)
+(what do you) (weave, O ye) (fisherman)
+(what do you) (catch, O ye) (fisherman)
+(what do you) (make, O ye) (goldsmith)
+(what do you) (weigh, O ye) (vender)
+(what do you) (weigh, O ye) (flowergirl)
+To predict the next word in the test sentence "What do you make, O ye _________", we can use the five-gram model to calculate the probability of each possible next word. The possible next words are "vendor" and "goldsmith". The probabilities of these two words are as follows:
+
+Probability of "vendor" = (1 + 10) / (7 + 10 * 5) = 11 / 35
+Probability of "goldsmith" = (1 + 10) / (7 + 10 * 5) = 11 / 35
+Therefore, the five-gram language model predicts that the next word in the test sentence is "vendor" with a probability of 11 / 35 and "goldsmith" with a probability of 11 / 35.
+
+c. Perplexity
+
+The perplexity of a language model is a measure of how well the model predicts the next word in a sequence. A lower perplexity indicates that the model is better at predicting the next word.
+
+The perplexity of the four-gram language model for the test sentence is calculated as follows:
+
+Perplexity = 2 ^ (-1 / 6) = 2.125
+The perplexity of the five-gram language model for the test sentence is calculated as follows:
+
+Perplexity = 2 ^ (-11 / 35) = 1.818
+Therefore, the five-gram language model has a lower perplexity than the four-gram language model, which indicates that the five-gram language model is better at predicting the next word in the test sentence.
+
+I hope this helps! Let me know if you have any other questions.

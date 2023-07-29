@@ -1,12 +1,34 @@
+A)
+Latent Dirichlet Allocation (LDA) is a generative process because it assumes a generative model for the data. This means that it specifies a probabilistic process that could have generated the data that we observe. In the case of LDA, the generative process is as follows:
 
-Sure, I can help you with that.
+For each document, a topic mixture is sampled from a Dirichlet distribution.
+For each word in the document, a topic is sampled from the topic mixture.
+A word is sampled from the vocabulary, conditioned on the topic.
+This process can be used to generate new documents that are similar to the ones in the training corpus. This is because the generative process is based on the statistical properties of the training corpus.
 
-a. The sentence "Saniya played with a bird on the tree" has two meanings because the word "bird" can refer to either a specific bird or to the general concept of birds. This is an example of semantic ambiguity in NLP. Semantic ambiguity occurs when a word or phrase can have multiple meanings, depending on the context in which it is used.
+In addition to being a generative process, LDA is also a Bayesian model. This means that it uses Bayes' theorem to update the probability of the model parameters given the observed data. This allows LDA to be more robust to noise in the data.
 
-b. Here are the types of NLP applications for each of the functionalities mentioned:
+Here is an example of how LDA can be used to generate a new document:
 
-1) "Look ahead" typing where user is prompted with the next few words in search engines : This is a part-of-speech tagging application. Part-of-speech tagging is the process of identifying the part of speech of each word in a sentence. This information can be used to predict the next few words that a user is likely to type.
-2) Grammar checker : This is a language modeling application. Language modeling is the process of predicting the next word in a sequence of words. This information can be used to identify grammatical errors in a sentence.
-3) Email classification : This is a text categorization application. Text categorization is the process of classifying text into different categories. This information can be used to organize emails into different folders or to filter out spam emails.
-4) Classifying entities into pre-defined labels : This is a named entity recognition application. Named entity recognition is the process of identifying and classifying named entities in a text. This information can be used to extract information from text, such as the names of people, organizations, and locations.
-I hope this helps! Let me know if you have any other questions.
+We start by sampling a topic mixture from a Dirichlet distribution.
+We then sample a topic from the topic mixture.
+We then sample a word from the vocabulary, conditioned on the topic.
+We repeat steps 2 and 3 until we have generated the desired number of words.
+The generated document will be similar to the documents in the training corpus because it was generated using the same generative process. This makes LDA a useful tool for topic modeling and text analysis.
+
+B)
+
+The Dirichlet distribution plays a key role in Latent Dirichlet Allocation (LDA). It is used to model the distribution of topics in a document and the distribution of words in a topic.
+
+In LDA, each document is assumed to be a mixture of topics. The Dirichlet distribution is used to model the distribution of topics in a document. The parameters of the Dirichlet distribution are a vector of probabilities, where each probability represents the probability of a topic being present in the document.
+
+The Dirichlet distribution is also used to model the distribution of words in a topic. The parameters of the Dirichlet distribution are a vector of probabilities, where each probability represents the probability of a word being associated with the topic.
+
+The Dirichlet distribution is a conjugate prior to the multinomial distribution. This means that the posterior distribution of the Dirichlet distribution can be calculated using the Bayes' theorem. This makes LDA a computationally efficient model to train.
+
+In addition to being a conjugate prior, the Dirichlet distribution also has a number of other properties that make it a good choice for modeling the distribution of topics and words in LDA. These properties include:
+
+The Dirichlet distribution is a non-negative distribution. This means that the probabilities of all the topics and words are positive.
+The Dirichlet distribution is a unimodal distribution. This means that the distribution has a single peak. This is important for LDA because it ensures that the topics and words are distributed in a meaningful way.
+The Dirichlet distribution is a flexible distribution. This means that it can be used to model a wide range of distributions of topics and words.
+Overall, the Dirichlet distribution is a powerful tool for modeling the distribution of topics and words in LDA. Its properties make it a computationally efficient and flexible model that can be used to learn meaningful representations of documents.

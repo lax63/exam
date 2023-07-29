@@ -1,13 +1,23 @@
 
-Study the below neural network designed for learning word embedding along with other NLP applications and answer the following questions
-the input layer 'X' denote the one hot encoding of the vocabulary, "e" is the embedding layer, "h1","h2" are hidden layers with sigmoid activatio function and "Y" is the output layer with sigmoid activation function, identify no more than 2 issues/error in the architecture for each of the belo two scenarios: If There are no corrections required then mention "No Error" explicitly.
 
-a. Scenario 1: The input with context window of four tokens is used to predict the next fifth token. The candidate fifth word can be either Y= "" C
+Sure, I can help you with that.
 
-Y="?" for this application.
+Scenario 1
 
-b. Scenario 2: Top three frequent tokens with embedding of size three, is used to predict the sentiment from the set (Positive, Negative, Neutral) the document from where the tokens were extracted. of 107/29
+No errors in the architecture. The input layer with context window of four tokens is used to predict the next fifth token, which can be either "" or "?". The embedding layer will convert the one-hot encoding of the input tokens into a dense vector representation, which will then be passed to the hidden layers. The hidden layers will learn to associate the input tokens with the next fifth token, and the output layer will then predict the probability of each possible fifth token.
+Scenario 2
 
-Options
+The embedding layer will convert the top three frequent tokens into a dense vector representation, which will then be passed to the hidden layers. The hidden layers will learn to associate the top three frequent tokens with the sentiment of the document, and the output layer will then predict the probability of each possible sentiment.
+Issues with the architecture
 
-c. With respect to the "scenario 1", find the dimension (matrix size) w.rt to section/layer "W1" and "U"
+There are no issues with the architecture in either scenario. The architecture is well-suited for learning word embeddings and predicting sentiment.
+Dimensions of W1 and U
+
+The dimension of W1 is (4 x d), where d is the size of the embedding vector.
+The dimension of U is (d x 2), where 2 is the number of possible fifth tokens.
+Answers
+
+Scenario 1: No errors.
+Scenario 2: No errors.
+Dimensions of W1 and U: (4 x d), (d x 2)
+I hope this helps! Let me know if you have any other questions.

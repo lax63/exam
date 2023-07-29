@@ -1,55 +1,15 @@
-To handle zero probability, use smoothing and assume the Laplace smooth factor is +10 tokens only for your calculation irrespective of the training data count. All the punctuations like comma, question marks etc., must be included as valid separate token for this particular model.
+“What do you sell, O ye vender?
+What do you weave, O ye flowergirl?
+What do you weave, O ye fisherman?
+What do you catch, O ye fisherman?
+What do you make, O ye goldsmith?
+What do you weigh, O ye vender?
+What do you weigh, O ye flowergirl?”
+Given above training data, use both below listed language models separately to predict the next word to complete the below test sentence. For prediction use only form set (vendor, goldsmith) for candidate next word.
+Note:  To handle zero probability, use smoothing and assume the Laplace smooth factor is +10 tokens only for your calculation irrespective of the training data count. All the punctuations like comma, question marks etc., must be included as valid separate token for this particular model.
 
-Test Sentence to complete: What do you make, O ye
+Test Sentence to complete: What do you make, O ye _________
 
 a. Use Four-gram language model
-
-051604
-
-23/07/29-20224305366-8
-
 b. Use Five-gram language model
-
 c. Using the result of part, a) w.r.t to predicted next word, Calculate the perplexity
-Sure, here are the tokenized and tagged sentences:
-
-Sentence 1: Book the ticket
-
-Token | Tag
-------- | --------
-Book | VB
-the | DT
-ticket | NN
-Sentence 2: Book the first book
-
-Token | Tag
-------- | --------
-Book | VB
-the | DT
-first | JJ
-book | NN
-Sentence 3: Read the first book.
-
-Token | Tag
-------- | --------
-Read | VB
-the | DT
-first | JJ
-book | NN
-. | DOT
-Sentence 4: Ticket is booked.
-
-Token | Tag
-------- | --------
-Ticket | NN
-is | VBZ
-booked | VBN
-. | DOT
-The best sequence of tags for each sentence is as follows:
-
-Sentence 1: Book the ticket = VB DT NN
-Sentence 2: Book the first book = VB DT JJ NN
-Sentence 3: Read the first book. = VB DT JJ NN .
-Sentence 4: Ticket is booked. = NN VBZ VBN .
-
-I hope this helps! Let me know if you have any other questions.

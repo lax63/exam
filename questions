@@ -1,33 +1,12 @@
+
 Sure, I can help you with that.
 
-Similar words:
+a. The sentence "Saniya played with a bird on the tree" has two meanings because the word "bird" can refer to either a specific bird or to the general concept of birds. This is an example of semantic ambiguity in NLP. Semantic ambiguity occurs when a word or phrase can have multiple meanings, depending on the context in which it is used.
 
-Spa and Massage are similar words because they both refer to places where people go to relax and receive body treatments.
-Apple and Computer are similar words because they are both products of the Apple company.
-Similar documents:
+b. Here are the types of NLP applications for each of the functionalities mentioned:
 
-Doc 1 and Doc 2 are similar documents because they both have high counts for the words Spa and Massage. This suggests that they are both about spas or massage parlors.
-Doc 3 and Doc 4 are similar documents because they both have high counts for the word Apple. This suggests that they are both about Apple products.
-Drawback of term document matrix:
-
-One drawback of term document matrix is that it does not take into account the order of words in a document. This means that two documents that contain the same words, but in different order, will be considered to be similar. For example, Doc 1 and Doc 2 both contain the words "spa" and "massage", but in different order. This means that they will be considered to be similar, even though they may be about different things.
-
-TF-IDF to identify informative word for doc 4:
-
-TF-IDF stands for Term Frequency - Inverse Document Frequency. It is a weighting scheme that is used to measure the importance of a word in a document. The TF-IDF score for a word is calculated as follows:
-
-Term Frequency (TF): This is the number of times a word appears in a document.
-Inverse Document Frequency (IDF): This is the logarithm of the number of documents in a corpus divided by the number of documents that contain the word.
-The TF-IDF score for a word is a measure of how important the word is in a document, relative to other documents in the corpus. The higher the TF-IDF score, the more important the word is considered to be.
-
-In the given term document matrix, the word with the highest TF-IDF score for Doc 4 is Apple. This suggests that the word Apple is the most informative word in Doc 4.
-
-Here is the calculation of the TF-IDF score for the word Apple in Doc 4:
-
-Term Frequency (TF): 26
-Inverse Document Frequency (IDF): log(4 / 2) = log(2)
-TF-IDF score = 26 * log(2) = 52
-
-Therefore, the word Apple has a TF-IDF score of 52, which is the highest TF-IDF score for any word in Doc 4. This suggests that the word Apple is the most informative word in Doc 4.
-
+1) "Look ahead" typing where user is prompted with the next few words in search engines : This is a part-of-speech tagging application. Part-of-speech tagging is the process of identifying the part of speech of each word in a sentence. This information can be used to predict the next few words that a user is likely to type.
+2) Grammar checker : This is a language modeling application. Language modeling is the process of predicting the next word in a sequence of words. This information can be used to identify grammatical errors in a sentence.
+3) Email classification : This is a text categorization application. Text categorization is the process of classifying text into different categories. This information can be used to organize emails into different folders or to filter out spam emails.
+4) Classifying entities into pre-defined labels : This is a named entity recognition application. Named entity recognition is the process of identifying and classifying named entities in a text. This information can be used to extract information from text, such as the names of people, organizations, and locations.
 I hope this helps! Let me know if you have any other questions.

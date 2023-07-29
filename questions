@@ -1,11 +1,33 @@
-Feature probability distribution of two classes of 2-dimensional data points  are given by
-P(x,y | 〖class〗_0) = 1/(2πσ_x σ_y )exp[〖-(x-1)〗^2/(2σ_x^2 )- y^2/(〖2σ〗_y^2 )]
-And
-P(x,y | 〖class〗_1) = 1/(2πσ_x σ_y )exp[〖-(x)〗^2/(2σ_y^2 )- ((〖y-2)〗^2)/(〖2σ〗_x^2 )]
+Sure, I can help you with that.
 
-P(〖class〗_0)=0.4, p(〖class〗_1)=0.6
-i)Derive the equation of decision boundary assuming Naïve Bayes assumption.
-ii) what is the equation and shape of the decision boundary if σ_x  = σ_y= σ? Draw the decision boundary clearly showing which region belongs to class0 and class1. Is the decision boundary linear?
+Similar words:
 
+Spa and Massage are similar words because they both refer to places where people go to relax and receive body treatments.
+Apple and Computer are similar words because they are both products of the Apple company.
+Similar documents:
 
-ii) what is the equation and shape of the decision boundary if σ_x  =2σ_y? Draw the decision boundary clearly showing which region belongs to class0 and class1. Is the decision boundary linear?
+Doc 1 and Doc 2 are similar documents because they both have high counts for the words Spa and Massage. This suggests that they are both about spas or massage parlors.
+Doc 3 and Doc 4 are similar documents because they both have high counts for the word Apple. This suggests that they are both about Apple products.
+Drawback of term document matrix:
+
+One drawback of term document matrix is that it does not take into account the order of words in a document. This means that two documents that contain the same words, but in different order, will be considered to be similar. For example, Doc 1 and Doc 2 both contain the words "spa" and "massage", but in different order. This means that they will be considered to be similar, even though they may be about different things.
+
+TF-IDF to identify informative word for doc 4:
+
+TF-IDF stands for Term Frequency - Inverse Document Frequency. It is a weighting scheme that is used to measure the importance of a word in a document. The TF-IDF score for a word is calculated as follows:
+
+Term Frequency (TF): This is the number of times a word appears in a document.
+Inverse Document Frequency (IDF): This is the logarithm of the number of documents in a corpus divided by the number of documents that contain the word.
+The TF-IDF score for a word is a measure of how important the word is in a document, relative to other documents in the corpus. The higher the TF-IDF score, the more important the word is considered to be.
+
+In the given term document matrix, the word with the highest TF-IDF score for Doc 4 is Apple. This suggests that the word Apple is the most informative word in Doc 4.
+
+Here is the calculation of the TF-IDF score for the word Apple in Doc 4:
+
+Term Frequency (TF): 26
+Inverse Document Frequency (IDF): log(4 / 2) = log(2)
+TF-IDF score = 26 * log(2) = 52
+
+Therefore, the word Apple has a TF-IDF score of 52, which is the highest TF-IDF score for any word in Doc 4. This suggests that the word Apple is the most informative word in Doc 4.
+
+I hope this helps! Let me know if you have any other questions.

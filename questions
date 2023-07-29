@@ -1,37 +1,13 @@
 
-Based on the given probabilities, the word "jump" should be tagged as a verb.
+Study the below neural network designed for learning word embedding along with other NLP applications and answer the following questions
+the input layer 'X' denote the one hot encoding of the vocabulary, "e" is the embedding layer, "h1","h2" are hidden layers with sigmoid activatio function and "Y" is the output layer with sigmoid activation function, identify no more than 2 issues/error in the architecture for each of the belo two scenarios: If There are no corrections required then mention "No Error" explicitly.
 
-The probability of the sequence of tags "NN MD jump NN IN NN" is:
+a. Scenario 1: The input with context window of four tokens is used to predict the next fifth token. The candidate fifth word can be either Y= "" C
 
-P(NN|MD) * P(jump|NN) * P(IN|NN) = 0.0012 * 0.00085 * 0.0023 = 0.00002177
-The probability of the sequence of tags "VB MD jump VB IN NN" is:
+Y="?" for this application.
 
-P(VB|MD) * P(jump|VB) * P(IN|VB) = 0.0025 * 0.0011 * 0.0018 = 0.0000045
-As you can see, the probability of the sequence of tags with "jump" as a verb is much higher than the probability of the sequence of tags with "jump" as a noun. Therefore, we should tag "jump" as a verb.
+b. Scenario 2: Top three frequent tokens with embedding of size three, is used to predict the sentiment from the set (Positive, Negative, Neutral) the document from where the tokens were extracted. of 107/29
 
-Here is the calculation of the probabilities:
+Options
 
-Python
-import math
-
-def get_probability(tag1, tag2, probability1, probability2, probability3, probability4):
-  """Returns the probability of the given sequence of tags."""
-  return probability1 * probability2 * probability3 * probability4
-
-def main():
-  """Calculates the probability of the two possible sequences of tags."""
-  probability_noun = get_probability("NN", "MD", 0.0012, 0.00085, 0.0018, 0.0023)
-  probability_verb = get_probability("VB", "MD", 0.0025, 0.0011, 0.0018, 0.0023)
-
-  if probability_noun > probability_verb:
-    print("The word 'jump' should be tagged as a noun.")
-  else:
-    print("The word 'jump' should be tagged as a verb.")
-
-if __name__ == "__main__":
-  main()
-Use code with caution. Learn more
-The output of the code is:
-
-The word 'jump' should be tagged as a verb.
-Therefore, we can conclude that the word "jump" should be tagged as a verb in the sentence "The cat will jump over the fence."
+c. With respect to the "scenario 1", find the dimension (matrix size) w.rt to section/layer "W1" and "U"

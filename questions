@@ -1,25 +1,15 @@
-neural network designed using Tensorflow Keras is given below.
+) What is the objective of the neural network? What is the input given to the network? What is the expected output? How deep and wide is the network. 08/05-60 What is the o wide i is the input 84513
 
-to type the answers in the textbox of the portal. 2023/08/05-udents are instructed
+activation='softmax ')) 22aa053
 
-net = tf. 3/05-20adderas. layers. Sequential ()
+4-845
 
-2023/
+Justify the choice activation function in output layer. Instead of Relu tion, justify the choice of using Tanh activation function. may-201 activation func-
 
-tf.keras. layers. Input Layer (input_shape = ((256 256.3) 384-8451
+[1]
 
-tf.keras. layers. Dense (1048, activation='relu '), tf. keras. layers. Dense (512, activation='relu '),
+(c) Two dropout statements are added in the code. How additional parameters are learned because of this? If drop out is added after the last statement in the given /08/05-how will it affect the network? 4513dded afte
 
-08/05-202tf.keras.layers. Dropout (0
+(d) Write the code snippet for adding the optimizer of your the optimizer. Assume any other relevant information. the choice of mation. Sice Justify 12aa0384-2
 
-tf. keras. layers. Dense (256, activation='relu '), 2022aa05384-84
-
-tf. keras. layers. Dense (128, activation='relu tf. keras.layers. Dense (64, activation='relu '),
-
-tf. keras. layers. Dropout (0.6), 3/08/05-20
-
-tf.keras. layers. Dense (32, activation='relu '),
-
-tf.keras. layers. Dense (16, activation='relu ').
-
-tf. keras. 2022yers. Dense (8, tion='softmax'))
+will the following code snippet do to the network. 28/08(0) What wizer cb= tf. keras. callbacks. Early Stopping (monitor='loss patience history = net. fit (epochs=200, batch size=32, callbacks=[cb1)

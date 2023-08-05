@@ -1,7 +1,3 @@
-a) Consider a two input XNOR gate and simulate a perceptron algorithm for5384-84513-202 learning rate=0.02 and threshold = 0.2. gate 2023/08/05 05-20 it, where, [2]
-
-Delow.
-
-(b) Represent using a multilayer neural network A 05-20 E where represents XNOR. What will be the optimal depth and width for this network. 3 $4-84513-2
-
-(c) You'd like to train a fully-connected neural network with 7 hidden layers each with 8 hidden units. The input is 30-dimensional and the is a binary. What is the total number of trainable parameters
+a) Consider a two input XNOR gate and simulate a perceptron algorithm fot it, where, learning rate=0.02 and threshold = 0.2
+(b) Represent using a multilayer neural network A δ B δ C δ D δ  E where δ represents XNOR. What will be the optimal depth and width for this network.
+(c) You'd like to train a fully-connected neural network with 7 hidden layers each with 8 hidden units. The input is 30-dimensional and the is a binary. What is the total number of trainable parameters in your network.

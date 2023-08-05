@@ -1,3 +1,13 @@
-a) Consider a two input XNOR gate and simulate a perceptron algorithm fot it, where, learning rate=0.02 and threshold = 0.2
-(b) Represent using a multilayer neural network A δ B δ C δ D δ  E where δ represents XNOR. What will be the optimal depth and width for this network.
-(c) You'd like to train a fully-connected neural network with 7 hidden layers each with 8 hidden units. The input is 30-dimensional and the is a binary. What is the total number of trainable parameters in your network.
+705-2022a05384-84513-2024 In figure 2, assume that the learning rate used was 0.5Redraw the effect of increasing the learning rate to 2 and decreasing the learning rate to 0.01. [2] plot to show the 84513-2
+
+(c) You are given a simple neural network with a neurons use the sigmoid activation hidden layer containing two neu- [3] rons, and an output layer containing one neuron. function. The weights and biases of the network are as follows: 08/05-2022aa054-84513 08/05-20
+
+Weights from input to hidden layer: w_{1} = 0.5
+
+. Biases in hidden layer: b * 1 = 0.1 b * 2 = - 0.2
+
+Weights from hidden layer to output: w * 3 = 0.7 . w * 4 = - 0.8
+
+103/05 Bias in output layer: b * 3 = 0.3
+
+Given an input x = 0.75 calculate the output of the network and mean squared loss if the desired output is 1.25. Use the sigmoid activation function. What will be the effect in the loss if the loss function used is 23/08/ -in

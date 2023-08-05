@@ -1,15 +1,3 @@
-) What is the objective of the neural network? What is the input given to the network? What is the expected output? How deep and wide is the network. 08/05-60 What is the o wide i is the input 84513
-
-activation='softmax ')) 22aa053
-
-4-845
-
-Justify the choice activation function in output layer. Instead of Relu tion, justify the choice of using Tanh activation function. may-201 activation func-
-
-[1]
-
-(c) Two dropout statements are added in the code. How additional parameters are learned because of this? If drop out is added after the last statement in the given /08/05-how will it affect the network? 4513dded afte
-
-(d) Write the code snippet for adding the optimizer of your the optimizer. Assume any other relevant information. the choice of mation. Sice Justify 12aa0384-2
-
-will the following code snippet do to the network. 28/08(0) What wizer cb= tf. keras. callbacks. Early Stopping (monitor='loss patience history = net. fit (epochs=200, batch size=32, callbacks=[cb1)
+a) Consider a two input XNOR gate and simulate a perceptron algorithm fot it, where, learning rate=0.02 and threshold = 0.2
+(b) Represent using a multilayer neural network A δ B δ C δ D δ  E where δ represents XNOR. What will be the optimal depth and width for this network.
+(c) You'd like to train a fully-connected neural network with 7 hidden layers each with 8 hidden units. The input is 30-dimensional and the is a binary. What is the total number of trainable parameters in your network.

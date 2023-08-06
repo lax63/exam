@@ -1,13 +1,5 @@
-705-2022a05384-84513-2024 In figure 2, assume that the learning rate used was 0.5Redraw the effect of increasing the learning rate to 2 and decreasing the learning rate to 0.01. [2] plot to show the 84513-2
-
-(c) You are given a simple neural network with a neurons use the sigmoid activation hidden layer containing two neu- [3] rons, and an output layer containing one neuron. function. The weights and biases of the network are as follows: 08/05-2022aa054-84513 08/05-20
-
-Weights from input to hidden layer: w_{1} = 0.5
-
-. Biases in hidden layer: b * 1 = 0.1 b * 2 = - 0.2
-
-Weights from hidden layer to output: w * 3 = 0.7 . w * 4 = - 0.8
-
-103/05 Bias in output layer: b * 3 = 0.3
-
-Given an input x = 0.75 calculate the output of the network and mean squared loss if the desired output is 1.25. Use the sigmoid activation function. What will be the effect in the loss if the loss function used is 23/08/ -in
+	X=2 p = 0.25
+|  --------------------- ----------|		x=3 P = 0.75
+|---- A---------------------(shift)-----------------------B-----------p=0.2 x
+|-------------------------------------------------------------|       p=0.2 x+2----------Terminal
+	P = 0.6 x-1 shift 

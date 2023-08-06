@@ -1,17 +1,9 @@
-Given a large collection C, of N documents, a clustering algorithm works as 023/08/06 lows: 5384-84495-2023/08/0
+Vector extract(Doc d)
 
-495-2023/08/06
+Doc SetCenter(DocSet D)
 
-Step 1: extract keywords from each document, compute distances between pairs of documents, and use the distance metric to decide whether a pair goes in the same cluster or into two different clusters; 023/08/06-2022
+float similar(Vector v1, Vector v2) // compute similarity between v1 and v2 06-and v2 05384-8449
 
-2023/08/06-20
+// return the center of a cluster
 
-you have to write your answer in the Text-Field given below.
-
-822305384-84496
-
-Step 2: once dusters are formed, compute distances between the centers of the clusters to decide whether or not the two clusters should merge into a larger suster decide wh 085384-84495-2023/
-
-Step 3: repeat step 2 until either all between cluster centers converge sare in one big cluster or distances converge documents 3/08/0
-
-e followi Assume you have the functions
+// extract from d and return a vector

@@ -1,15 +1,28 @@
-Given a large collection C, of N documents, a clustering algorithm works as follows:
+Consider the following equation for gradient descent:
 
-Step 1: extract keywords from each document, compute distances between pairs of documents, and use the distance metric to decide whether a pair goes in the same cluster or into two different clusters;
-Step 2: once dusters are formed, compute distances between the centers of the clusters to decide whether or not the two clusters should merge into a larger cluster
-Step 3: repeat step 2 until either all documents are in one big cluster or distances between cluster centers converge
+WW-18(L, D, w)
 
-Assume you have following the functions:
+(where g is the gradient function, L the loss ss function, and 6-2022aa05384-84495-2 and D, the dataset and denotes
 
-Vector extract(Doc d) // extract keyword from d and return a vector
-float similar(Vector v1, Vector v2) // compute similarity between v1 and v2
-Doc getCenter(DocSet D)	// return the center of a cluster
+the learning rate)
 
-Show how this clustering algorithm can be implemented using esmap-reduce.
-Calculate the speedup on a distributed system with N nodes. 
-Analyse the impact of communication cost on the  speedup.
+for i = 1 to 08/06-2022aam_iter
+
+shuffle (data);
+
+for example in data {
+
+grad = eval_gradient (loss_function, example,
+
+and the corresponding pseudo-code for stochastic gradient descent: 1495-2023/08/06-222aa05384-8449
+
+3/06-
+
+W=w-learning_rate* grad;
+
+/08/06-2022 }
+
+Can the inner loop be implemented as a software pipeline? Why or why not? 84-84495-2023/08/2022aa05384-84 20228805384
+
+If the inner loop is implemented as a software pipeline, explain the cost overhead in running
+this implementation on a distributed system as opposed to a shared memory system

@@ -1,7 +1,2 @@
-Consider the training phase of bagging (or bootstrap aggregation) parallelized on a multi-core system with m bootstrap samples: -202 ona 5384-84495-2027
-
-(W)?
-
-Explain your answer. 23/08/06-202 answer 384 le
-
-Will it affect the system performance parameters (not machine learning performance ottributes like accuracy) if (i) a different bootstrap (or selection) technique is used for each sample or (ii) a different learning algorithm is used for each sample or both (i) and (ii)
+Consider the training phase of bagging (or bootstrap aggregation) parallelized on a multi-core system with m bootstrap samples: -
+Will it affect the system performance parameters (not machine learning performance attributes like accuracy) if (i) a different bootstrap (or selection) technique is used for each sample or (ii) a different learning algorithm is used for each sample or both (i) and (ii)?  Explain your answer.

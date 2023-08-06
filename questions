@@ -1,28 +1,17 @@
 Consider the following equation for gradient descent:
 
-WW-18(L, D, w)
+w = w – n*g(L, D, w)
 
-(where g is the gradient function, L the loss ss function, and 6-2022aa05384-84495-2 and D, the dataset and denotes
-
+(where g is the gradient function, L the loss ss function, and D, the dataset and n denotes
 the learning rate)
-
-for i = 1 to 08/06-2022aam_iter
-
+and the corresponding pseudo-code for stochastic gradient descent
+for i = 1 to num_iter{
 shuffle (data);
-
 for example in data {
-
-grad = eval_gradient (loss_function, example,
-
-and the corresponding pseudo-code for stochastic gradient descent: 1495-2023/08/06-222aa05384-8449
-
-3/06-
-
-W=w-learning_rate* grad;
-
-/08/06-2022 }
-
-Can the inner loop be implemented as a software pipeline? Why or why not? 84-84495-2023/08/2022aa05384-84 20228805384
-
+grad = eval_gradient (loss_function, example,w);
+w=w - learning_rate* grad;
+ }
+}
+Can the inner loop be implemented as a software pipeline? Why or why not? 
 If the inner loop is implemented as a software pipeline, explain the cost overhead in running
 this implementation on a distributed system as opposed to a shared memory system

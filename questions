@@ -1,17 +1,7 @@
-Consider the following equation for gradient descent:
+Consider the training phase of bagging (or bootstrap aggregation) parallelized on a multi-core system with m bootstrap samples: -202 ona 5384-84495-2027
 
-w = w – n*g(L, D, w)
+(W)?
 
-(where g is the gradient function, L the loss ss function, and D, the dataset and n denotes
-the learning rate)
-and the corresponding pseudo-code for stochastic gradient descent
-for i = 1 to num_iter{
-shuffle (data);
-for example in data {
-grad = eval_gradient (loss_function, example,w);
-w=w - learning_rate* grad;
- }
-}
-Can the inner loop be implemented as a software pipeline? Why or why not? 
-If the inner loop is implemented as a software pipeline, explain the cost overhead in running
-this implementation on a distributed system as opposed to a shared memory system
+Explain your answer. 23/08/06-202 answer 384 le
+
+Will it affect the system performance parameters (not machine learning performance ottributes like accuracy) if (i) a different bootstrap (or selection) technique is used for each sample or (ii) a different learning algorithm is used for each sample or both (i) and (ii)

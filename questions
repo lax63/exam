@@ -1,9 +1,3 @@
-Vector extract(Doc d)
+Show how this clustering algorithm can be implemented using esmap-reduce, 2022aa05384-84497
 
-Doc SetCenter(DocSet D)
-
-float similar(Vector v1, Vector v2) // compute similarity between v1 and v2 06-and v2 05384-8449
-
-// return the center of a cluster
-
-// extract from d and return a vector
+Calculate the speedup on a distributed system with N nodes. Analyse the impact of communication cost on the s speedup

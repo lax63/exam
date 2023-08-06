@@ -1,5 +1,17 @@
-	X=2 p = 0.25
-|  --------------------- ----------|		x=3 P = 0.75
-|---- A---------------------(shift)-----------------------B-----------p=0.2 x
-|-------------------------------------------------------------|       p=0.2 x+2----------Terminal
-	P = 0.6 x-1 shift 
+Given a large collection C, of N documents, a clustering algorithm works as 023/08/06 lows: 5384-84495-2023/08/0
+
+495-2023/08/06
+
+Step 1: extract keywords from each document, compute distances between pairs of documents, and use the distance metric to decide whether a pair goes in the same cluster or into two different clusters; 023/08/06-2022
+
+2023/08/06-20
+
+you have to write your answer in the Text-Field given below.
+
+822305384-84496
+
+Step 2: once dusters are formed, compute distances between the centers of the clusters to decide whether or not the two clusters should merge into a larger suster decide wh 085384-84495-2023/
+
+Step 3: repeat step 2 until either all between cluster centers converge sare in one big cluster or distances converge documents 3/08/0
+
+e followi Assume you have the functions

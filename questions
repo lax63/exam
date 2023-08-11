@@ -1,31 +1,14 @@
-It is given that for two i defined as follows: x and y, the cost funcafulshrim AUG 20 C(x, y) is
+It is given that for two i defined as follows: x and y, the cost function C(x, y) is defined as follows
 
 If x <y, C(x, y) = x.
+Otherwise, C(x, y) = C(x/y, y) +x MOD y.
 
-• Otherwise, C(x, y) = C(x/y, y) +x MOD y.
-
-hant.k
-
-been given two
-
-Progersmant.k
-
-11-AUG-2025 such that C(x, y) = prafulsimpan 11-AUG-2023
-
-raison ave
-
-11-AUG-2023
+You have been given two integres x and c, such that C(x, y) = c, for some y
 
 Find the smallest value of y, which satisfies the above defined cost function. If no such y exists return -1.
 
-Note: It is given that 2 sy≤2hrimant.k
-
-rafulchrimant.k
-
-11-AU 2234
-
-prafulshrimant.k 11-AUG-2023
-
+Note: It is given that 2 <= y <= (2*10^9)
 Input Format
 
 The first line contains an integer, x, denoting the given integer x
+The next line contains an integer c, denoting the value c described in the problem.

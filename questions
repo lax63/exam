@@ -1,14 +1,13 @@
-It is given that for two i defined as follows: x and y, the cost function C(x, y) is defined as follows
+def cost_function(x, y):
+    if x < y:
+        return x
+    else:
+        return cost_function(x // y, y) + x % y
 
-If x <y, C(x, y) = x.
-Otherwise, C(x, y) = C(x/y, y) +x MOD y.
-
-You have been given two integres x and c, such that C(x, y) = c, for some y
-
-Find the smallest value of y, which satisfies the above defined cost function. If no such y exists return -1.
-
-Note: It is given that 2 <= y <= (2*10^9)
-Input Format
-
-The first line contains an integer, x, denoting the given integer x
-The next line contains an integer c, denoting the value c described in the problem.
+def find_smallest_y(x, c):
+    smallest_y = 2
+    while smallest_y <= 2 * 10 ** 9:
+        if cost_function(x, smallest_y) == c:
+            return smallest_y
+        smallest_y += 1
+    return -1

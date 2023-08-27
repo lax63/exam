@@ -1,37 +1,20 @@
-SECTION B (4 marks)
-Everybody loves the treasure hunt game be it in real life or in a digital form. Suppose that there is 
-a ForestGrid and one player who has to start his hunt from an initial position in the grid and to 
-reach to the last grid of the ForestGrid to obtain the treasure. But unfortunately, there are certain 
-obstacles coming his way which will lead him to a different grid rather than following an optimal 
-path to reach near the treasure. The obstacles could be a wild animal or an end point in the forest 
-which will get discovered later after reaching that point. For the player to reach the treasure he will 
-have to avoid the grid containing wild animals and take another optimal move than the current 
-one. In the scenario where the end point arrives the player will have to take 2 steps backward and 
-find an optimal move to start his hunt.
-Grid with animal - probability of getting killed is 0.8, that means there is probability of reaching 
+▪️ *PERSONAL DETAILS FOR IHOME LOAN :*
 
-to treasure is 0.2.
+Applicant Name :-
+Mother Name :-
+Father Name :-
+Qualification :- 
+Religion :-
+Gender :-
+Category :-
+Marital Status :-
+No of Dependent children :-
+Residing sin :-
+Contact no:-
+Designation:-
+Total Work Experience:-
+Current Residence address:-
 
-End point - works as a barrier/wall on either side of the grid. Suppose the endpoint is on the east 
-
-side of the grid, then this signifies that the player cannot go to the right side of the current grid.
-
-SafeGrid - grid with no animal. Reward will be -1. 
-
-The player can move left, right, up and down to reach the treasure.
-
-Given below is the scenario map. Create a 8X8 grid with the position of animals, treasure, start 
-
-point and the end point/barrier as given below.
-
-1) Find the optimal policy for the above scenario value iteration and policy iteration
-
-2) Analyze which of the two is better suited for the scenario in terms of convergence 
-
-Colab Link: The Colab Assignment Template is made available to download on the assignment
-
-dashboard.
-
-NOTE: All submissions for graded components must be the result of your original effort. It is 
-
-strictly prohibited to copy and paste verbatim from any sources, whether online or from your
+Office email Id :-
+Personal email Id :-
+Current office address :-

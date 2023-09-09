@@ -1,3 +1,23 @@
+
+
+Projects
+Shopping Application | Source Code(Paste the link   https://github.com/lax63/Shopping-App)
+It is a Spring Applicaion. where the customers should register themselves with the application to use 
+the application and get the benefits of a registered user.
+Tech used : Spring Framework, MYSQL
+
+
+Hotel Rating System | Project | Source code(https://github.com/lax63/Hotel-Rating-System)
+It is a microservice app. Have three microservices Hotel Rating and User
+User Orders Food and gives Ratings 
+communication between services using Rest api have separate Databases
+Tech used : Spring Boot, microservice, MYSQL
+
+Achievements
+Hackerrank Basic Problem Solving (https://www.hackerrank.com/certificates/bbe8131145f4)
+
+
+
 Links
 https://auth.geeksforgeeks.org/user/laxmikantahire63
 https://leetcode.com/hachiman

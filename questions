@@ -1,13 +1,53 @@
-def cost_function(x, y):
-    if x < y:
-        return x
-    else:
-        return cost_function(x // y, y) + x % y
+Here's the equivalent Java code for the given Python code:
 
-def find_smallest_y(x, c):
-    smallest_y = 2
-    while smallest_y <= 2 * 10 ** 9:
-        if cost_function(x, smallest_y) == c:
-            return smallest_y
-        smallest_y += 1
-    return -1
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        String[] arr = input.split(" ");
+        StringBuilder answer = new StringBuilder();
+        int n = arr.length;
+
+        if (n == 1) {
+            String[] x = arr[0].split("\\.");
+            for (int i = 0; i < x.length - 1; i++) {
+                answer.append(x[i]).append("\n");
+            }
+            answer.append(x[x.length - 1]).append("=some value\n");
+            for (int i = x.length - 2; i >= 0; i--) {
+                answer.append(x[i]).append("\n");
+            }
+            System.out.println(answer.toString());
+        } else {
+            String[] x = arr[0].split("\\");
+            for (int i = 0; i < x.length - 1; i++) {
+                answer.append(x[i]).append("\n");
+            }
+            answer.append(x[x.length - 1]).append("=some value\n");
+            for (int j = 1; j < n; j++) {
+                String[] cur = arr[j].split("\\");
+                String[] prev = arr[j - 1].split("\\");
+                int k;
+                for (k = 0; k < cur.length - 1; k++) {
+                    if (!cur[k].equals(prev[k])) {
+                        answer.append(prev[k]).append("\n");
+                        answer.append(cur[k]).append("\n");
+                        break;
+                    }
+                }
+                answer.append(cur[k + 1]).append("=some value\n");
+            }
+            String[] last = arr[n - 1].split("\\.");
+            for (int i = last.length - 2; i >= 0; i--) {
+                answer.append(last[i]).append("\n");
+            }
+            System.out.println(answer.toString());
+        }
+    }
+}
+```
+
+Please note that this Java code is based on a direct translation of the provided Python code and may require some adjustments depending on your specific requirements and the input method you intend to use.

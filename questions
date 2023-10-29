@@ -1,5 +1,3 @@
-Consider the MDP for a continuing task described in the following figure.
-The starting state is S. The other states are a and b.
-The Policy πleft suggests taking action left from s and πright suggests taking action right from s. 
-Agent X uses policy πleft and Agent Y uses policy πleft-.
+Rotor to the following form (reproduced from
 
+The lectlook? lecture slides). The core condition used (under step-en somewhat inaccurate. What is the problem, and what

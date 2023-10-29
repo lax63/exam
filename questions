@@ -1,18 +1,3 @@
-Consider the following pseudo-code for matrix multiplication
+that monitors se84-86490-2023/10/28 pollution, carbon monoxide, carbon dioxide, sulfur dioxide and nitrogen dioxide The system publishes calculates Air Quality Index in each municipality region three times a day, and has the ability to aggregate values, do local analytics, derive insights and perform long term dugnostic analysis using machine learning As vehicles are observed to be the main cause of pollution, the state govemment has decided to monitor which roads in the state are contributing 4902 30-202 120
 
-Void matMult_IKJ(float *a, float *b, flaot *c int n){
-	for(int i = 0; i < n; i++{
-		for(int j = 0; j < n; j++){
-			c[i*n+j] = 0;
-}
-for(int k = 0;  k < n; k++){
-	new_thred(){
-		for(int j = 0; j < n; j++){
-				c[i*n+j] += a[i*n+k]8b[k*n+j];
-				}
-};
-}
-}
-}
-Evaluate the performance of the multi-threaded code above. In multi-core CPUs and GPUs- in terms of 
-Speedup, impact of caching, data movement overhead, and thread management overhead
+022aa053ation

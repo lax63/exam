@@ -1,6 +1,5 @@
-that monitors se84-86490-2023/10/28 pollution, carbon monoxide, carbon dioxide, sulfur dioxide and nitrogen dioxide The system publishes calculates Air Quality Index in each municipality region three times a day, and has the ability to aggregate values, do local analytics, derive insights and perform long term dugnostic analysis using machine learning As vehicles are observed to be the main cause of pollution, the state govemment has decided to monitor which roads in the state are contributing 4902 30-202 120
-
-022aa053ation
-
-Describe at a high level - the system required for a federated leaming solution to meet the above requirement. Mention the learning algorithm/solution used and explain the system with its components in details.
-Argue the scalability of your design and identify the factors
+Consider an environmental  pollution, network deployed across Kamalata that monitors several parameters including ground level ozone, particle pollution, carbon monoxide, carbon dioxide, sulfur dioxide and nitrogen dioxide. The system publishes calculates Air Quality Index in each municipality region three times a day, and has the ability to aggregate values, do local analytics, derive insights and perform long term diagnosis analysis using machine learning.
+ As vehicles are observed to be the main cause of pollution, the state govermment has decided to monitor which roads in the state are contributing  most to the pollution.
+a)Describe at a high level - the system required for a federated learning solution to meet the above requirement. 
+b)Mention the learning algorithm/solution used and explain the system with its components in details.
+c)Argue the scalability of your design and identify the factors it is depended on.

@@ -1,7 +1,19 @@
-When node 6 is reached, we receive a reward of 10 and retum to the start for a new
+Assume we are an agent in 3×2 gridworld, as shown in below figure.
 
-05384-36-09-2/23/29-2022aa05384-8650-2023/1009
+4	5	Finish
+6
+start
+1	2	3
 
-On all other actions that do not lead to state 6, the reward is-1. Four actions are possible
 
-up, down, right, left. You cannot take actions that take you out
+When node 6 is reached, we receive a reward of +10 and return to the start for a new Episode.
+On all other actions that do not lead to state 6, the reward is -1. Four actions are possible
+up, down, right, left. You cannot take actions that take you out of the grid. The Q-table is given below.
+
+Q(1,up) = 3			Q(1,right) = 3
+Q(2,up) = 5		Q(2,left) = 4	Q(2,right) = 7
+Q(3,up) = 8		Q(3,left) = 6	
+	Q(4,down) = 1		Q(4,right) = 6
+	Q(5,down) = 5	Q(5,left) = 4	Q(5,right) = 8
+
+Assume you are starting from grid 2. Let discount factor be 0.4 and learning rate be 0.6. Using Q learning find the path to reach 6 from 2.

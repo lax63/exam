@@ -1,18 +1,18 @@
-consists of multiple levels each being a different challenge but with same reward structure. An episode consists of completing a level. The agent is expected to maximize the Total expected reward as it progresses through the episodes. The computer program is evaluating the following two ways of computing the reward.
+Consider the following pseudo-code for matrix multiplication
 
-	G_t = R_(t+1)+ R_(t+2)+  R_(t+3) + . . . +  R_ϒ
-	G_t= R₁+1+ϒR_(t+2)+ ϒ^2 R_(t+3)+   …… 
-
-Which reward function will enable the agent to progress quickly through the episodes and why? Provide your answer in precise terms. (hots if the answer is more than two good statements, you probably get the explanation wrong) 
-(b) In the scenario given in the previous part of the question, what will be the return (using ii), if the reward for all the steps is 10, including the terminal states?
-
-Consider the MDP for a continuing task described in the following figure.
-The starting state is S. The other states are a and b.
-The Policy πleft suggests taking action left from s and πright suggests taking action right from s. 
-Agent X uses policy πleft and Agent Y uses policy πleft-.
-
-
-d) Rotor to the following form (reproduced from The lextbook? lecture slides). The core condition used (under step-en somewhat inaccurate. What is the problem, and what change can be madeto fix this?
-(Note : Answer only in 2 statement vague answers get 0)
-
-1. Initialisation V(s) R and x(t) A(s) arbitrarily for all α € δ
+Void matMult_IKJ(float *a, float *b, flaot *c int n){
+	for(int i = 0; i < n; i++{
+		for(int j = 0; j < n; j++){
+			c[i*n+j] = 0;
+}
+for(int k = 0;  k < n; k++){
+	new_thred(){
+		for(int j = 0; j < n; j++){
+				c[i*n+j] += a[i*n+k]8b[k*n+j];
+				}
+};
+}
+}
+}
+Evaluate the performance of the multi-threaded code above. In multi-core CPUs and GPUs- in terms of 
+Speedup, impact of caching, data movement overhead, and thread management overhead

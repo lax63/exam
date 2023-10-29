@@ -1,14 +1,7 @@
-a) Consider the following transition probabilities and the reward for an MDP with states s1 and s2. Actions a1 and a2 are available in each of the states
+When node 6 is reached, we receive a reward of 10 and retum to the start for a new
 
-From state	Action Taken		To State		Reward recorded
-		s1	s2	s3	r
-s1	a1	0.2	0.6	0.2	5.0
-	a2	0.1	0.2	0.7	10.0
-s2	a1	0.3	0.3	0.4	1.0
-	a2	0.5	0.3	0.2	-1.0
-s3	a1	0	0	1.0	0
-	a2	0	0	1.0	0
+05384-36-09-2/23/29-2022aa05384-8650-2023/1009
 
+On all other actions that do not lead to state 6, the reward is-1. Four actions are possible
 
-Compute x as below. x (last digit of your student id +43% 20. No marks will be given for the use of any other Consider the initial values of st, s2, and s3 are 10, 1.0 and 0.0, respectively. Compute values of states after 2 iterations, given the discount factor as x using an asynchronous version of value iteration. Show all the computations. What will be the optimal policy after the two iterations. Are the computer value converged? Why (or why not)?
-b) Only handwritten answer accepted] Referring to the discussions on tile coding. The tilings we considered in the class gave equal importance to all the dimensions. How do you adapt this to situations where certain attributes are more critical to the task than others? Explain a way of doing this in your own language
+up, down, right, left. You cannot take actions that take you out

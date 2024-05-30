@@ -1,0 +1,42 @@
+Laxmikant Ahire
+Summary
+Highly motivated and results-oriented Java developer with 4+ years of experience building secure and scalable enterprise applications. Possesses in-depth knowledge of Spring Security, JWT tokens, RESTful APIs, database management (MySQL), and unit testing methodologies (JUnit, Mockito). Proven ability to design, develop, test, deploy, and maintain robust software solutions across the entire development lifecycle.
+Experience
+•	Software Engineer | UBS | December 2022 - March 2023 (or previous company - adjust as needed)
+o	Developed and maintained Java SE8 applications utilizing Spring Boot and microservices architecture. (can be elaborated if responsibilities align with the new job description)
+o	Collaborated with cross-functional teams to gather requirements, design, implement, and unit test (JUnits) complex features.
+o	Leveraged strong analytical and problem-solving skills to troubleshoot and resolve technical issues.
+o	Contributed to the deployment and ongoing maintenance of enterprise applications.
+•	(Previous company) | (Job title) | (Dates) (add previous relevant experience)
+o	(Describe responsibilities and achievements using strong action verbs and quantifiable metrics whenever possible)
+Skills
+•	Programming Languages: Java 8, C, C++ (if applicable)
+•	Frameworks: Spring (including Spring Security), Spring Boot
+•	Web Services: RESTful APIs with JWT token implementation
+•	API Security: Spring Security
+•	Databases: MySQL (and any others you're proficient in)
+•	Version Control: Git
+•	Development Tools: JUnit, Mockito, STS, Postman, Github
+•	Scripting: Familiarity with UNIX/Shell scripting (if applicable)
+•	Soft Skills: Critical thinking, excellent verbal and written communication, strong problem-solving, and analytical abilities.
+Projects
+•	Book Network API (Spring Security, JWT, Docker): https://github.com/lax63/book-network-api
+o	Developed a secure RESTful API using Spring Security and JWT for user authentication and authorization.
+o	Implemented user signup with email activation functionality using a Java mail server containerized in Docker.
+o	Integrated a MySQL database container for data persistence.
+•	Java Spring Boot Testing with JUnit and Mockito: https://github.com/lax63/Testing-Junit-Mockito
+o	Demonstrated expertise in unit testing Spring Boot applications using JUnit and Mockito frameworks.
+o	Created comprehensive test suites covering service, controller, and repository layers.
+o	Utilized an embedded H2 database for efficient testing within a dedicated test profile.
+Online Profiles
+•	LeetCode: https://leetcode.com/u/hachiman/
+•	LinkedIn: https://linkedin.com/in/lax63/
+•	GeeksforGeeks: https://geeksforgeeks.org/user/laxmikantahire63/
+•	HackerRank: https://hackerrank.com/profile/laxmikantahire63/
+Education
+•	Bachelor of Technology (B.Tech.) in Computer Science | Sandip University, Nashik | June 2021
+o	Graduated with a CGPA of 8.33 (83.33%)
+o	Focus on Business Analytics Optimization
+Achievements
+•	HackerRank Basic Problem Solving Certificate
+•	Coding Ninjas (Level 7)
